@@ -4,12 +4,12 @@ export default function Portfolio() {
 
     return (
         <section id="Portfolio">
-            <div className="container">
+            <div className="portContainer container">
                 <h1 className="porfolio-info">Portfolio</h1>
                 <p className="info">Click on the image to see the project description.</p>
             </div>
 
-            <div class="row row-cols-1 row-cols-md-3">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2">
                 <div class="col mb-4">
                     <div class="card h-100">
                         <img src="./images/card.png" class="card-img-top" alt="..."/>

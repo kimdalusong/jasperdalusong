@@ -10,13 +10,13 @@ export default function About() {
                 <div className="row">
                     <h1 className="col-lg-12 aboutMe">About <span className="me-blue">Me</span></h1>
                     
-                    <div className="iconDiv col-lg-3 col-md-4 col-sm-12">
+                    <div className="iconDiv col-lg-3 col-sm-12">
                         <img className="icon" src="/images/dalusong.jpg" />
                     </div>
 
-                    <div className="col-lg-9 col-md-8 col-sm-12">
+                    <div className="col-lg-9 col-sm-12">
                         <div className="about-content"> 
-                            <p>I have a firm knowledge of HTML, CSS and JavaScript language and possess a good knowledge of computer software packages (frameworks and tools) that are used in today’s technology. </p>
+                            <p className="aboutjasper">I have a firm knowledge of HTML, CSS and JavaScript language and possess a good knowledge of computer software packages (frameworks and tools) that are used in today’s technology. </p>
                             <p>On a personal level, I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills and am fully aware of the latest Front-end Development Tools.</p>
                             <p>In addition to this, I have the ability to adapt to any type of team environment, I am team oriented and get along with others when working in a group setting. I also have the ability to work independently while staying on schedule and meeting those tight deadlines.</p>
                             <p>Below is a list of my current technical skills:</p>

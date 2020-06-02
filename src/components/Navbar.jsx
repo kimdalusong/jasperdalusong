@@ -7,6 +7,7 @@ export default function Navbar() {
 
     return (
         <section id="Navbar">
+
         <nav className="whenShrink navbar fixed-top navbar-expand-lg navbar-dark bg-blue">
 
             <a className="navbar-brand" href="#">{"<Jasper Dalusong />"}</a>
