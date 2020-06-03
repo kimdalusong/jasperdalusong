@@ -1,5 +1,5 @@
 import React from 'react';
-import { GitHub, MailOutline, Facebook, LinkedIn, Phone } from '@material-ui/icons';
+import { GitHub, MailOutline, Facebook, LinkedIn, Phone, GetApp } from '@material-ui/icons';
 
 
 
@@ -25,11 +25,12 @@ export default function Contact() {
                 <div className="row">
                     <div class="col-lg-6 col-md-6col-sm-12">
                         <div className="contact">
-                            <p><MailOutline fontSize="large" />  kimxdalusong@gmail.com</p>
-                            <p><Phone fontSize="large" />  +63 955 092 3880 </p>
-                            <p><GitHub fontSize="large" />  kimdalusong </p>
+                            <p><a type="email" className="contact-link"><MailOutline fontSize="large" />  kimxdalusong@gmail.com </a></p>
+                            <p><a target="_blank" className="contact-link"> <Phone fontSize="large" />  +63 955 092 3880 </a> </p>
+                            <p><a href="https://github.com/kimdalusong" target="_blank" className="contact-link"><GitHub fontSize="large" />  kimdalusong </a> </p>
                             <p><a href="https://m.me/thekimxdalusong" target="_blank" className="contact-link"><Facebook fontSize="large" />  m.me/thekimxdalusong </a></p>
                             <p><a href="https://www.linkedin.com/in/jasperdalusong" target="_blank" className="contact-link"><LinkedIn fontSize="large" />  www.linkedin.com/in/jasperdalusong </a> </p>
+                            <p><a target="_blank" className="contact-link"><GetApp fontSize="large" /> Request a copy of my resume </a></p>
                         </div>
 
                     </div>
@@ -40,8 +41,9 @@ export default function Contact() {
                 </div>
             <br/>
             <br/>
+        </div>
+
             
-            </div>
         </section>
     );
 
