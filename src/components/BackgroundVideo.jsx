@@ -2,14 +2,18 @@ import React from 'react';
 import Typist from 'react-typist';
 
 const BackgroundVideo = () => {
+    
     const videoSource = "./videos/video.mp4"
 
     return (
 <>
-        <video autoPlay="autoplay" loop="loop" muted="muted" className="Video">
-            <source src={videoSource} type="video/mp4"/>
-            Your browser does not support the video tag.
-        </video>
+        <div className="videoContainer">
+            <video autoPlay="autoplay" loop="loop" muted="muted" className="BgVideo">
+                <source src={videoSource} type="video/mp4" />
+            </video>
+        </div>
+
+
         <div className="Content">
                 <div className="myCover jumbotron">
 

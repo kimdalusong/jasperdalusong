@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+
 }
 body{
   overflow-y: scroll;
@@ -68,30 +69,7 @@ a.navbar-brand:hover {
   position: relative;
 
 }
-#background-video{
 
-min-width: 700px;
-min-height: 600px;
-
-  float: left;
-  top: 0;
-  padding: none;
-  }
-/* BACKGROUND VIDEO */
-.Container {
-  position: relative;
-  height: 100%;
-  overflow: hidden;
-  float: left;
-
-}
-
-/* Style the video: 100% width and height to cover the entire window */
-.Video {
-  position: relative;
-  display: flex;
-  z-index: 0;
-}
 @media (max-width: 1160px) {
   .Video {
     height: 100%;
@@ -152,12 +130,11 @@ div.myCover{
 }
 
 #About {
-  min-height: 40rem;
-  margin: 2rem 5rem;
+  margin: 2rem 1rem;
   font-family: 'Montserrat', sans-serif;
-  position: relative;
-
+  
 }
+
 .aboutMe{
   font-weight: 900;
   text-align: center;
@@ -176,9 +153,16 @@ div.myCover{
   width: 300px;
   border-radius: 20%;
 }
+@media screen and (max-width: 500px) {
+  .icon {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+  }
+}
 .iconDiv{
   text-align: center;
-  padding-bottom: 3rem;
+  padding: 0px 0px 2rem;
 }
 @media (min-width: 992px) {
   .about-content {
@@ -223,8 +207,15 @@ ul {
   margin-bottom: 10px;
 }
 ul li a img {
-  height: 70px;
-  width: 70px;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  ul li a img {
+    height: 3rem;
+    width: 3rem;
+  }
 }
 
 #Portfolio {
@@ -339,12 +330,13 @@ img.card-img-top {
 .dot {
   font-size: 5rem;
   color: #0f4c75;
+  
 }
 #Footer {
   min-height: 10rem;
   font-family: 'Montserrat', sans-serif;
   background-color: #0f4c75;
-  padding-top: 2rem;
+  padding: 2rem;
   position: relative;
 
   
@@ -391,4 +383,57 @@ img.card-img-top {
 .subscribe {
   width: 100%;
   height: 100%;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  h1.headContainer{
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  div.contact{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #About {
+    padding: 10px 1rem 2rem;
+  }
+  .aboutMe{
+    font-size: 3rem;
+  }
+} 
+
+@media screen and (max-width: 500px) {
+  #Portfolio {
+    padding: 2rem 1rem;
+  }
+  h1.porfolio-info{
+    font-size: 3rem;
+    padding: 1rem 0px;
+  }
+  div.col.mb-4.newCard {
+    padding: 0px 40px;
+  }
+}
+
+.videoContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding:0;
+  margin:0;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  overflow:hidden;
+  }
+
+.BgVideo {
+min-height: 100%;
+min-width:100%;
+position: absolute;
+bottom:0;
+left:0;
 }

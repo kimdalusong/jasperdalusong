@@ -14,12 +14,12 @@ export default function App(){
     <div>
   
       <Navbar />
-      <div data-spy="scroll" data-target="#navbar-Scroll" data-offset="0">
+
         <Cover />
         <About />
         <Portfolio />
         <Contact />
-      </div>
+   
       <Footer />
     
     </div>

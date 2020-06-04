@@ -7,7 +7,7 @@ export default function Portfolio() {
       
         return (
 
-            <div class="col mb-4">
+            <div class="col mb-4 newCard">
                 <div className="card mycard h-100">
                     <img
                         type="button"
