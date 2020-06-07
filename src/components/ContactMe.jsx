@@ -28,9 +28,9 @@ export default function Contact() {
                         <div className="contact">
                             <p><a type="email" className="contact-link"><MailOutline fontSize={vw <= 500? "medium" : "large"} />  kimxdalusong@gmail.com </a></p>
                             <p><a target="_blank" className="contact-link"> <Phone fontSize={vw <= 500? "medium" : "large"} />  +63 955 092 3880 </a> </p>
-                            <p><a href="https://github.com/kimdalusong" target="_blank" className="contact-link"><GitHub fontSize={vw <= 500? "medium" : "large"} />  kimdalusong </a> </p>
-                            <p><a href="https://m.me/thekimxdalusong" target="_blank" className="contact-link"><Facebook fontSize={vw <= 500? "medium" : "large"} />  m.me/thekimxdalusong </a></p>
-                            <p><a href="https://www.linkedin.com/in/jasperdalusong" target="_blank" className="contact-link"><LinkedIn fontSize={vw <= 500? "medium" : "large"} />  www.linkedin.com/in/jasperdalusong </a> </p>
+                            <p><a href="https://github.com/kimdalusong" target="_blank" rel="noopener noreferrer" className="contact-link"><GitHub fontSize={vw <= 500? "medium" : "large"} />  kimdalusong </a> </p>
+                            <p><a href="https://m.me/thekimxdalusong" target="_blank" rel="noopener noreferrer" className="contact-link"><Facebook fontSize={vw <= 500? "medium" : "large"} />  m.me/thekimxdalusong </a></p>
+                            <p><a href="https://www.linkedin.com/in/jasperdalusong" target="_blank" rel="noopener noreferrer" className="contact-link"><LinkedIn fontSize={vw <= 500? "medium" : "large"} />  www.linkedin.com/in/jasperdalusong </a> </p>
                             {/* <p><a target="_blank" className="contact-link"><GetApp fontSize={vw <= 500? "medium" : "large"} /> Request a copy of my resume </a></p> */}
                         </div>
 

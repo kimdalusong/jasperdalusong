@@ -22,20 +22,20 @@ export default function About() {
                             <p>Below is a list of my current technical skills:</p>
                         </div>
                         <ul className="skills list-inline"> 
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/css.png" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/javascript.png" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/bootstrap.png" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/html.png" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/php.png" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/node.png" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/mongodb.png" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/npm.png" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/heroku.png" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/git.png" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/github.png" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/jquery.webp" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/adobe.png" alt="#" title="#"/> </a></li>
-                            <li className="skillsPadding"> <a href="google.com" target="_blank"> <img src="/icons/sql.png" alt="#" title="#"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer"> <img src="/icons/html.png" alt="HTML" title="#"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" rel="noopener noreferrer"> <img src="/icons/css.png" alt="CSS" title="#"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer"> <img src="/icons/javascript.png" alt="#" title="JAVASCRIPT"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank" rel="noopener noreferrer"> <img src="/icons/bootstrap.png" alt="BOOTSTRAP" title="#"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/PHP" target="_blank" rel="noopener noreferrer"> <img src="/icons/php.png" alt="#" title="PHP"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank" rel="noopener noreferrer"> <img src="/icons/node.png" alt="NODE.JS" title="NODE.JS"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/MongoDB" target="_blank" rel="noopener noreferrer"> <img src="/icons/mongodb.png" alt="MongoDB" title="#"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/Npm_(software)" target="_blank" rel="noopener noreferrer"> <img src="/icons/npm.png" alt="npm" title="#"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/Heroku" target="_blank" rel="noopener noreferrer"> <img src="/icons/heroku.png" alt="heroku" title="#"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/Git" target="_blank" rel="noopener noreferrer"> <img src="/icons/git.png" alt="Git" title="#"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank" rel="noopener noreferrer"> <img src="/icons/github.png" alt="Github" title="#"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/JQuery" target="_blank" rel="noopener noreferrer"> <img src="/icons/jquery.webp" alt="JQuery" title="#"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/Adobe_Photoshop" target="_blank" rel="noopener noreferrer"> <img src="/icons/adobe.png" alt="Adobe Photoshop" title="#"/> </a></li>
+                            <li className="skillsPadding"> <a href="https://en.wikipedia.org/wiki/MySQL" target="_blank" rel="noopener noreferrer"> <img src="/icons/sql.png" alt="MySQL" title="#"/> </a></li>
                             
                         </ul>
                     </div>

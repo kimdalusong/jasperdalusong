@@ -300,6 +300,10 @@ img.card-img-top {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
+button.btn.btn-dark{
+ 
+  min-width: fit-content;
+}
 .btn {
   width: 10rem;
   height: 3rem;
@@ -385,7 +389,10 @@ img.card-img-top {
   height: 100%;
 }
 
-
+img.card-img-top{
+  min-height: 180px;
+  max-height: 180px;
+}
 
 @media screen and (max-width: 500px) {
   h1.headContainer{
@@ -415,6 +422,11 @@ img.card-img-top {
   }
   div.col.mb-4.newCard {
     padding: 0px 40px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .modalColumn{
+    padding: 2rem 1rem;
   }
 }
 

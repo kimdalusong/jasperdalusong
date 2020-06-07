@@ -1,51 +1,51 @@
 const projects = [
 {
-    "projectId": "example1",
-    "title": "myproject1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "image": "./images/card.png",
-    "code": "https://github.com/1",
-    "preview": "https://heroku.com/1"
+    "projectId": "project1",
+    "title": "Expense Tracker",
+    "description": "Expense tracking is an important part of creating a budget for your small business. Keeping a daily record of your expenses by tracking receipts, invoices and other outgoing expenses improves the financial health of your budget. This app is created using React and ES6, and the modern flat UI design using CSS3.",
+    "image": "./images/expense.jpg",
+    "code": "https://github.com/kimdalusong/expenseTrackerReact",
+    "preview": "https://expense-tracker4.herokuapp.com/"
 },
 {
-    "projectId": "example2",
-    "title": "myproject2",
-    "description": "this is the description of my project 2",
-    "image": "./images/card.png",
-    "code": "https://github.com/2",
-    "preview": "https://heroku.com/2"
+    "projectId": "project2",
+    "title": "To do List",
+    "description": " At their most basic, to-dos contain all of the tasks that you need to complete on a given day. It's a great device for managing time that enables you to lay out everything that you need to accomplish and plan and prioritize your day from there. This app is Created using node.js server, EJS for the templating, and mongoDB for the database.",
+    "image": "./images/todolist.jpg",
+    "code": "https://github.com/kimdalusong/todoReact",
+    "preview": "https://todolist05.herokuapp.com/"
 },
 {
-    "projectId": "example3",
-    "title": "myproject3",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "image": "./images/card.png",
-    "code": "https://github.com/3",
-    "preview": "https://heroku.com/3"
+    "projectId": "project3",
+    "title": "Dice Game",
+    "description": "Simple dice game first described in print by John Scarne in 1945. As with many games of folk origin, Pig is played with many rule variations. Commercial variants of Pig include Pass the Pigs, Pig Dice, and Skunk. Pig is commonly used by mathematics teachers to teach probability concepts. Pig is one of a family of dice games described by Reiner Knizia as 'jeopardy dice games'. For jeopardy dice games, the dominant type of decision is whether or not to jeopardize previous gains by rolling for potential greater gains.",
+    "image": "./images/dicegame.jpg",
+    "code": "https://github.com/kimdalusong/DiceGame",
+    "preview": "http://mydicegame.epizy.com/"
 },
 {
-    "projectId": "example4",
-    "title": "myproject4",
-    "description": "this is the description of my project 2",
-    "image": "./images/card.png",
-    "code": "https://github.com/2",
-    "preview": "https://heroku.com/2"
+    "projectId": "project4",
+    "title": "Drum Kit",
+    "description": "Drum kit is a collection of drums and other percussion instruments, typically cymbals, which are set up on stands to be played by a single player. This app is created using Vanilla Javascript",
+    "image": "./images/drumkit.jpg",
+    "code": "https://github.com/kimdalusong/DrumKit",
+    "preview": "http://drummerist.epizy.com/"
 },
 {
-    "projectId": "example5",
-    "title": "myproject5",
-    "description": "this is the description of my project 2",
-    "image": "./images/card.png",
-    "code": "https://github.com/2",
-    "preview": "https://heroku.com/2"
+    "projectId": "project5",
+    "title": "Simon Game",
+    "description": "Simon is an electronic game of memory skill invented by Ralph H. Baer and Howard J. Morrison, working for toy design firm Marvin Glass and Associates, with software programming by Lenny Cope. The device creates a series of tones and lights and requires a user to repeat the sequence. This app is created using Vanilla Javacript",
+    "image": "./images/simongame.jpg",
+    "code": "hhttps://github.com/kimdalusong/simongame.github.io",
+    "preview": "https://kimdalusong.github.io/simongame.github.io/"
 },
 {
-    "projectId": "example6",
-    "title": "myproject6",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "image": "./images/card.png",
-    "code": "https://github.com/2",
-    "preview": "https://heroku.com/2"
+    "projectId": "project6",
+    "title": "Tindog Responsive Webpage",
+    "description": "Tinder but for mature and emotionally available doggos. Built with good ol' Bootstrap",
+    "image": "./images/tindog.jpg",
+    "code": "https://github.com/kimdalusong/tindogwebsite.github.io",
+    "preview": "https://kimdalusong.github.io/tindogwebsite.github.io/"
 },
 ];
 

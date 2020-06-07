@@ -40,7 +40,7 @@ export default function Portfolio() {
                 role="dialog"
                 aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
-                <div class="modal-dialog modal-xl">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">{projects.title}</h5>
@@ -49,13 +49,20 @@ export default function Portfolio() {
                             </button>
                         </div>
                         <div class="modal-body">
-                            {projects.description}
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <img src={projects.image} height="100%" width="100%" />
+                                </div>
+                                <div class="col">
+                                   <p className="modalColumn"> {projects.description} </p>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
-                            <a href={projects.code} target="_blank">
+                            <a href={projects.code} target="_blank" rel="noopener noreferrer">
                                 <button type="button" class="btn btn-secondary">Source Code</button>
                             </a>
-                            <a href={projects.preview} target="_blank">
+                            <a href={projects.preview} target="_blank" rel="noopener noreferrer">
                                 <button type="button" class="btn btn-primary">Live Preview</button>
                             </a>
                         </div>
@@ -78,10 +85,11 @@ export default function Portfolio() {
             </div>
 
             {/* modal */}
+
             {projectModal}
 
             <div className="seeAll">
-                <button type="button" class="btn btn-dark">See All ...</button>
+                <button type="button" class="btn btn-dark">will upload more soon</button>
             </div>
 
         </section>
